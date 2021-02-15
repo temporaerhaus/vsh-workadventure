@@ -1,0 +1,1 @@
+Tilesets by CERT (cert.ccc.de), licensed **CC-BY-SA**. See [LICENSE.md](./LICENSE.md) for details.
