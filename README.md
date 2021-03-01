@@ -13,10 +13,10 @@ In order to build your own map for WorkAdventure, you need:
 
 ### Loading the map in Tiled
 
-The sample map is in the file `map.json`.
+The vsh map is in the file `main.json`.
 You can load this file in [Tiled](https://www.mapeditor.org/).
 
-Now, it's up to you to edit the map and write your own map.
+Now, it's up to you to edit the map.
 
 Some resources regarding Tiled:
 
