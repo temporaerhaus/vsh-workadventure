@@ -10,7 +10,6 @@ Requires: Pillow (pip install Pillow)
 Only apply this script to tilesets that haven't been used in the map yet!
 
 Modified script from https://github.com/c3CERT/rc3_tiles
-License: CC-BY-SA - CERT (cert.ccc.de)
 
 """
 
