@@ -4,6 +4,12 @@ Virtual meeting space for online events and pandemic times. Running instance: [m
 
 ![Screenshot](screenshot.png)
 
+## Jitsi-Rooms
+
+* [Bällebad](https://coremeet.workadventu.re/globalvsh-baellebad)
+* [Aufzug](https://coremeet.workadventu.re/globalvsh-aufzug)
+* [Couchecke](https://coremeet.workadventu.re/globalvsh-couchecke)
+
 ## How to build
 
 The map is defined in the file [main.json](main.json), which can be edited with [Tiled](https://www.mapeditor.org/).
@@ -20,7 +26,7 @@ Apart from the default WorkAdventure tilesets, this project uses
 
 * the rC3-Tilesets by CERT - licensed [CC-BY-SA](https://github.com/verschwoerhaus/vsh-workadventure/blob/master/tilesets/cert/LICENSE.md).
 * the phenomenal [Wikipaka tileset](https://wikipaka.world/tilesets/wikipaka/wikipaka.png) by [@hastern](https://github.com/hastern)/Jugend hackt
-* some [VSH tiles](https://github.com/verschwoerhaus/vsh-workadventure/blob/master/tilesets/custom/vsh.png) by the community
+* some [VSH tiles](https://github.com/verschwoerhaus/vsh-workadventure/blob/master/tilesets/vsh/vsh.png) by the community
 
 ## Known issues
 
