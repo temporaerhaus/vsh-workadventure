@@ -1,38 +1,27 @@
 # Verschwörhaus WorkAdventure Map
 
-Generated from [WorkAdventure Map Starter Kit](https://github.com/thecodingmachine/workadventure-map-starter-kit)
+Virtual meeting space for online events and pandemic times. Running instance: [meet.verschwoer.haus](https://meet.verschwoer.haus/).
 
-## Tools you will need
+![Screenshot](screenshot.png)
 
-In order to build your own map for WorkAdventure, you need:
+## How to build
 
-- the [Tiled editor](https://www.mapeditor.org/) software
-- "tiles" (i.e. images) to create your map (this starter kit provides a good default tileset for offices)
-- a web-server to serve your map (this starter kit proposes to use Github static pages as a web-server which is both free and performant)
+The map is defined in the file [main.json](main.json), which can be edited with [Tiled](https://www.mapeditor.org/).
 
-
-### Loading the map in Tiled
-
-The vsh map is in the file `main.json`.
-You can load this file in [Tiled](https://www.mapeditor.org/).
-
-Now, it's up to you to edit the map.
-
-Some resources regarding Tiled:
-
+Helpful resources:
 - [Tiled documentation](https://doc.mapeditor.org/en/stable/manual/introduction/)
 - [Tiled video tutorials](https://www.gamefromscratch.com/post/2015/10/14/Tiled-Map-Editor-Tutorial-Series.aspx)
+- [WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map)
+- [HowTo rC3 World](https://howto.rc3.world/maps.html)
 
+## Tilesets
 
-### About WorkAdventu.re maps
+Apart from the default WorkAdventure tilesets, this project uses 
 
-In order to design a map that will be readable by WorkAdventure, you will have to respect some constraints.
+* the rC3-Tilesets by CERT - licensed [CC-BY-SA](https://github.com/verschwoerhaus/vsh-workadventure/blob/master/tilesets/cert/LICENSE.md).
+* the phenomenal [Wikipaka tileset](https://wikipaka.world/tilesets/wikipaka/wikipaka.png) by [@hastern](https://github.com/hastern)/Jugend hackt
+* some [VSH tiles](https://github.com/verschwoerhaus/vsh-workadventure/blob/master/tilesets/custom/vsh.png) by the community
 
-In particular, you will need to:
+## Known issues
 
-- set a start position for the players
-- configure the "floor layer" (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
-- eventually, you can place exits that link to other maps
-
-All this is described in the [WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).
-Please be sure to check it out. 
+* Sometimes while rendering a tile, WorkAdventure also displays the first pixels of the tile next to it, which causes weird stripes occuring randomly. This problem can be solved by rearranging the tilesets with the [deinterpolate_tiles.py](deinterpolate_tiles.py) script. However, applying this script to an existing tileset implies manually updating all tiles that have already been used, since the arrangement of the tiles within the tileset is changed!

@@ -1,1 +1,0 @@
-Tiles by [bytespeicher](https://github.com/Bytespeicher/Bytespeicher_WorkAdventure_RC3). Licensed CC0.
